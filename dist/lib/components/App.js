@@ -11,10 +11,12 @@ var _Badge = _interopRequireDefault(require("Badge"));
 
 require("./App.css");
 
+var _react = _interopRequireDefault(require("react"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const AppCustom2 = () => {
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
     style: {
       display: 'flex',
       flexDirection: 'column',
@@ -23,9 +25,9 @@ const AppCustom2 = () => {
       gap: '1.5rem',
       padding: '5rem'
     }
-  }, /*#__PURE__*/React.createElement("p", null, "Wow, look at this component library."), /*#__PURE__*/React.createElement("h5", null, "A notification badge:"), /*#__PURE__*/React.createElement(_Badge.default, {
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Wow, look at this component library."), /*#__PURE__*/_react.default.createElement("h5", null, "A notification badge:"), /*#__PURE__*/_react.default.createElement(_Badge.default, {
     value: 3
-  }), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("h5", null, "A button:"), /*#__PURE__*/React.createElement(_Button.default, {
+  }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("h5", null, "A button:"), /*#__PURE__*/_react.default.createElement(_Button.default, {
     label: "Enter",
     kind: "primary"
   }));
