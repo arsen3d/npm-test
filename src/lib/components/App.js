@@ -1,8 +1,8 @@
-import Button from './lib/components/Button';
-import Badge from './lib/components/Badge';
+import Button from 'Button';
+import Badge from 'Badge';
 import './App.css';
 
-const  AppCustom = () => {
+const  AppCustom2 = () => {
   return (
     <div style={{ display:'flex', 
               flexDirection:'column', 
@@ -20,4 +20,4 @@ const  AppCustom = () => {
   );
 }
 
-export default AppCustom;
+export default AppCustom2;
