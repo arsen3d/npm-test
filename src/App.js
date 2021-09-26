@@ -1,6 +1,7 @@
 import Button from './lib/components/Button';
 import Badge from './lib/components/Badge';
 import './App.css';
+import React from 'react';
 
 const  AppCustom = () => {
   return (

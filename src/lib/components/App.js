@@ -1,7 +1,7 @@
 import Button from 'Button';
 import Badge from 'Badge';
 import './App.css';
-
+import React from 'react';
 const  AppCustom2 = () => {
   return (
     <div style={{ display:'flex', 
