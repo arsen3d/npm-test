@@ -2,7 +2,7 @@ import Button from './lib/components/Button';
 import Badge from './lib/components/Badge';
 import './App.css';
 
-function App() {
+function AppCustom() {
   return (
     <div style={{ display:'flex', 
               flexDirection:'column', 
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppCustom;
