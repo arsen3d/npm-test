@@ -3,7 +3,7 @@ import Badge from './lib/components/Badge';
 import './App.css';
 import React from 'react';
 
-const  AppCustom = () => {
+function  AppCustom() {
   return (
     <div style={{ display:'flex', 
               flexDirection:'column', 
